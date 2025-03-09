@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>booking form</title>
+</head>
+<body>
+    <h2>Booking Form</h2>
+    <form action="#" method="post">
+         <strong>
+         <label for="first_name">Full Name *</label><br>
+         <input type="text" id="first_name" name="first_name" placeholder="First Name" required>
+         <input type="text" id="last_name" name="last_name" placeholder="Last Name" required><br><br>
+         </strong>
+        <strong>
+         <label for="email">E-mail *</label><br>
+         <input type="email" id="email" name="email" placeholder="ex: myname@example.com" required><br><br>
+         <label for="booking_date">Desired Booking Date & Time *</label><br>
+         <input type="date" id="booking_date" name="booking_date" required> 
+         <input type="time" id="booking_time" name="booking_time" required><br><br>
+        </strong>
+        
+        <strong>
+         <label>Are you a *</label><br>
+        </strong>
+         <input type="radio" id="new_customer" name="customer_type" value="new" required>
+         <label for="new_customer">New Customer</label><br>
+         <input type="radio" id="existing_customer" name="customer_type" value="existing">
+         <label for="existing_customer">Existing Customer</label><br>
+        <input type="radio" id="other" name="customer_type" value="other">
+        <label for="other">Other</label><br><br>
+
+        <strong>
+        <label>Preferred Contact Method *</label><br>
+         </strong>
+        <input type="checkbox" id="contact_email" name="contact_method" value="email">
+        <label for="contact_email">Email</label><br>
+        <input type="checkbox" id="contact_phone" name="contact_method" value="phone">
+        <label for="contact_phone">Phone</label><br>
+        <input type="checkbox" id="contact_whatsapp" name="contact_method" value="whatsapp">
+        <label for="contact_whatsapp">WhatsApp</label><br>
+        <input type="checkbox" id="contact_sms" name="contact_method" value="sms">
+        <label for="contact_sms">SMS</label><br><br>
+
+        <strong>
+        <label>Preferred Transport *</label><br>
+        </strong>
+        <input type="radio" id="transport_car" name="transport" value="car" required>
+        <label for="transport_car">Car</label><br>
+        <input type="radio" id="transport_bus" name="transport" value="bus">
+        <label for="transport_bus">Bus</label><br>
+        <input type="radio" id="transport_train" name="transport" value="train">
+        <label for="transport_train">Train</label><br><br>
+
+        <strong>
+        <label>Preferred Hotel *</label><br>
+         </strong>
+        <input type="radio" id="hotel_3star" name="hotel" value="3star" required>
+        <label for="hotel_3star">3 Star</label><br>
+        <input type="radio" id="hotel_4star" name="hotel" value="4star">
+        <label for="hotel_4star">4 Star</label><br>
+        <input type="radio" id="hotel_5star" name="hotel" value="5star">
+        <label for="hotel_5star">5 Star</label><br><br>
+
+        <strong>
+        <label>Preferred Fun Places (Select Multiple):</label><br>
+         </strong>
+        <input type="checkbox" id="fun_beach" name="fun_places" value="beach">
+        <label for="fun_beach">Beach</label><br>
+        <input type="checkbox" id="fun_themepark" name="fun_places" value="themepark">
+        <label for="fun_themepark">Theme Park</label><br>
+        <input type="checkbox" id="fun_museum" name="fun_places" value="museum">
+        <label for="fun_museum">Museum</label><br>
+        <input type="checkbox" id="fun_mountains" name="fun_places" value="mountains">
+        <label for="fun_mountains">Mountains</label><br> <br>
+
+        <strong>
+            <label>Select your package:  </label><br>
+             </strong>
+            <input type="radio" id="Maldives" name="package" value="Maldives" required>
+            <label for="Maldives">Maldives</label><br>
+            <input type="radio" id="Switzerland" name="package" value="Switzerland">
+            <label for="Switzerland">Switzerland</label><br>
+            <input type="radio" id="Dubai" name="package" value="Dubai">
+            <label for="Dubai">Dubai</label><br>
+            <input type="radio" id="Thailand" name="package" value="Thailand" >
+            <label for="Thailand">Thailand</label><br>
+            <input type="radio" id="Paris" name="package" value="Paris" >
+            <label for="Paris">Maldives</label><br>
+            <input type="radio" id="Turkey" name="package" value="Turkey">
+            <label for="Turkey">Turkey</label><br>
+<br>
+<strong>
+        <input type="submit" value="Submit">
+    </strong>
+    </form>
+<br>
+<center>
+    <b>
+    <a href="index.html">home</a>
+    </b>
+</center>
+    </body>
+</html>
